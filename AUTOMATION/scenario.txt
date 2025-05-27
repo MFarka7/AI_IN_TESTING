@@ -1,0 +1,11 @@
+1) Open this page https://czechibank.ostrava.digital in chrome browser,
+2) Switch to dark mode,
+3) Click Register button,
+4) Generate RANDOM Full Name and fill it in Full name field
+5) For this Full Name generate email and fill it in email field,
+6) Generate random password at least 6 characters long and fill it in Passwrod as well as Confirm password field,
+7) Scroll down to combobox,
+8) Open combobox for selecting a gender and select Female,
+9) Wait 2 seconds,
+10) Click Register button,
+11) Validate that registration process was completed successfully and generated user is greeted on the homepage with default account balance 100000.0 Czechitokens.
