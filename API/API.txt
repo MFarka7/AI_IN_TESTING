@@ -2,6 +2,10 @@ Let's assume that you are a API tester.
 You are testing application that has several endpoints and you have swagger file attached. Your task is to test users/register endpoint from that swagger file. 
 And your task is to create ONE VALID JSON FILE THAT CAN BE IMPORTED INTO POSTMAN AS COLLECTION that tests that endpoint in following manner with following assertions. 
 
+When generating requests use random functions for all json properties.
+
+Host should be added to collection variables, so I can easily adjust it whenever I need it.
+
 I would like to ask you to properly test: 
 1) HTTP METHOD –  try different method as well, 
 2) Test if all fields that should be required are really required, for each required field create one request where only that field is missing
@@ -12,6 +16,4 @@ I would like to ask you to create assertions for:
 1) Response code 
 2) Required fields in response body – assertions for all required fields need to be created as well as data types expected.
 
-When generating request use random functions for all json properties.
 
-Host should be added to collection variables, so I can easily adjust it whenever I need it.
