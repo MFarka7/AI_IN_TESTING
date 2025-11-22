@@ -6,8 +6,12 @@ I would like to ask you to properly test:
 1) HTTP METHOD –  try different method as well, 
 2) Test if all fields that should be required are really required, for each required field create one request where only that field is missing
 3) Test if datatypes matches the swagger file – you need to test datatypes for all required fields,
+but please start with HAPPY PATH
 
-And I would like to ask you to create assertions for: 
+I would like to ask you to create assertions for: 
 1) Response code 
-2) Required fields in response body – assertions for all required fields need to be created.
+2) Required fields in response body – assertions for all required fields need to be created as well as data types expected.
 
+When generating request use random functions for all json properties.
+
+Host should be added to collection variables, so I can easily adjust it whenever I need it.
