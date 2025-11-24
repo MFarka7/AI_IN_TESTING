@@ -1,1 +1,13 @@
 
+1) Open this page https://restarterky.datpp25.czechitas.online/ in chrome browser,
+2) Click Sign in button,
+3) Click Register button,
+4) Generate RANDOM Full Name and fill it in Full name field
+5) For this Full Name generate email and fill it in email field,
+6) Generate random password at least 8 characters long with at least one upper case, one lower case and one number and fill it in Password as well as Confirm password field,
+7) Wait 2 seconds,
+8) Click Register button,
+9) Validate that registration was successfull user was signed in. 
+10) Sign out.
+11) Close the current browser tab.
+12) If any error occurs during the process please close current active window.
