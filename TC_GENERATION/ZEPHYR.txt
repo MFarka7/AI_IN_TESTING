@@ -1,22 +1,20 @@
-Here is a complete, well-structured prompt you can use to generate the array of Zephyr Scale test case data for any user story.
-✍️ Prompt for Generating Zephyr Scale Test Case Data
 Goal: Generate a Python array of dictionaries named test_cases_data that contains test cases and their corresponding steps, following the Zephyr Scale Cloud REST API v2 structure for the /testcases (for the test case name) and /testcases/{test_case_key}/teststeps (for the steps) endpoints.
 ________________________________________
 Instructions for Generation
 1.	Format: The final output must be a single Python list of dictionaries, exactly matching the structure of the provided example. Do not include any explanations, markdown outside of the list, or surrounding text. The entire output must be the test_cases_data = [...] code block.
 2.	Test Case Structure: Each dictionary in the array must contain two top-level keys:
-o	"testCase": Contains a dictionary with the test case details, specifically the "name". This payload is for the /testcases endpoint.
-o	"testSteps": Contains the steps for that test case, with a "mode" of "APPEND" and an "items" array. This payload is for the /testcases/{test_case_key}/teststeps endpoint.
+	"testCase": Contains a dictionary with the test case details, specifically the "name". This payload is for the /testcases endpoint.
+	"testSteps": Contains the steps for that test case, with a "mode" of "APPEND" and an "items" array. This payload is for the /testcases/{test_case_key}/teststeps endpoint.
 3.	Test Steps Structure: Each item in the "items" array must use the "inline" format and contain:
-o	"description" (The action taken).
-o	"testData" (The data used for the action, use "N/A" if no specific data is needed).
-o	"expectedResult" (The anticipated outcome).
+	"description" (The action taken).
+	"testData" (The data used for the action, use "N/A" if no specific data is needed).
+	"expectedResult" (The anticipated outcome).
 4.	Content:
-o	Focus on one user story or feature of my choice (e.g., "As a user, I want to be able to reset my password").
-o	Generate a comprehensive set of test cases, covering:
+	Focus on one user story or feature of my choice (e.g., "As a user, I want to be able to reset my password").
+	Generate a comprehensive set of test cases, covering:
 	Positive (Happy Path) Scenarios: Successful execution.
 	Negative Scenarios: Boundary conditions, invalid inputs, error handling, security considerations (where applicable).
-o	Aim for at least 6-8 distinct test cases for the chosen feature. At the end also generate description for all test cases as separate output.
+	Aim for at least 6-8 distinct test cases for the chosen feature. At the end also generate description for all test cases as separate output.
 
 User Story for Data Generation
 You need to test registration form with two fields:
