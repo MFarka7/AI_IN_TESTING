@@ -1,0 +1,3 @@
+Can you please generate test ideas for following user story.
+Story:
+As a master admin I want to have the ability to delete/block any user so I can control access to Czechitas application. Only Master admin user can delete or block any user. No user can be deleted if he/she has created any application (přihláška) or there is any payment (platba) done for this user. Otherwise, it must be possible to delete user. Master admin user can also Block any user. Once user is blocked and trying to sign in into the system, user is immediately logged out. It must be possible to unblock any blocked user at any time by Master admin user.
